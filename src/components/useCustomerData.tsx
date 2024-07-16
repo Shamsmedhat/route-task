@@ -7,7 +7,7 @@ export default function useCustomerData() {
     useEffect(() => {
         async function fetchData() {
             try {
-                const res = await fetch("../../public/data.json");
+                const res = await fetch("/route-task/data.json");
                 const data: CustomerDataDocument = await res.json();
                 setCustomerData(data);
             } catch (error) {
