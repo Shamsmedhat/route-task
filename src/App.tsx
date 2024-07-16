@@ -20,7 +20,7 @@ const router = createBrowserRouter(
             ],
         },
     ],
-    { basename: "/route-task/" }
+    { basename: "/route-task" }
 );
 
 function App() {
